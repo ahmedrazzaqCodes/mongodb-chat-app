@@ -38,7 +38,7 @@ app.get("/chats", async(req,res)=>{
       
       res.render("index.ejs",{chats});
     }catch(err){
-        console.log(err)
+        console.log(err);
     }
 });
 
